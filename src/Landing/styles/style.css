@@ -1,0 +1,54 @@
+#spinning_globe{
+    width: 100px;
+    height: 100px;
+    animation: globe infinite 20s linear;
+    position: absolute;
+    /* top: 200; */
+    bottom: 300px;
+    right: 730px;
+}
+
+@keyframes globe{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+#landing-page{
+    /* margin-bottom: 150px; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo_img{
+    width: 600px;
+    height: 600px;
+    margin-top: -100px;
+}
+
+#landing-page p{
+    /* color: #38b6ff; */
+    position: absolute;
+    bottom: 230px;
+    right: 710px;
+}
+#landing-page button{
+    width: 250px;
+    height: 35px;
+    font-size: 1rem;
+    /* text-decoration: none; */
+    background-color: #38b6ff;
+    color: black;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,165 @@
+#postview{
+    overflow: visible;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#cam{
+    width: 40px;
+    height: 40px;
+    margin-right: 100px;
+}
+
+#logo-name{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+#header img{
+    width: 20px;
+    height: 20px;
+    /* margin-right: 10px; */
+}
+#heaer h3{
+    margin-bottom: 2px;
+}
+#header h5{
+    margin-left: 0;
+    color: gray;
+}
+
+main h3, h5{
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+#loc{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#loc img{
+    margin-left: 3px;
+    margin-right: 2px;
+    width: 10px;
+    height: 10px;
+}
+#loc h5{
+    margin-left: 0;
+}
+
+#main-sec{
+    width: 100%;
+    height: 290px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#main-sec img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+   
+}
+
+#dots img{
+    margin-right: 10px;
+}
+
+#footer{
+    width: 100%;
+    border-top: 1px solid gray;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#likes{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#likes img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+#wish-area img{
+    width: 20px;
+    height: 20px;
+}
+#wish-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#data{
+    margin-left: 50px;
+}
+#rest{
+    margin-top: -3px;
+}
+#rest p{
+    font-size: 14px;
+}
+
+#description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#description h5{
+    margin-top: 1px;
+    color: gray;
+}
+#date p{
+    margin-right: 10px;
+}
